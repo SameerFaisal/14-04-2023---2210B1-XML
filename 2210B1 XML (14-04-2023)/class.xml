@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+
+<!DOCTYPE class SYSTEM "class.dtd">
+
+<class>
+    <student id="st1">
+        
+    <name>Ali Haider</name>
+    <roll>126</roll>
+    <age>23</age>
+    <organization>&school;</organization>
+    </student>
+    <student id="st2">
+         <name>Hammad Ahmed</name>
+    <roll>127</roll>
+    <age>20</age>
+    <organization>&school;</organization>
+    </student>
+    <student id="st3">
+         <name>Muhammad Arshad</name>
+    <roll>129</roll>
+    <age>19</age>
+    <organization>&school;</organization>
+    </student>
+</class>

@@ -1,0 +1,8 @@
+<!ELEMENT class (student,student,student)>
+<!ELEMENT student (name,roll,age,organization)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT roll (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT organization (#PCDATA)>
+<!ENTITY school "Peela School">
+<!ATTLIST student id ID #REQUIRED>

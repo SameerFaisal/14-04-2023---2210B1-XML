@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE PAK_States [
+    <!ELEMENT PAK_States (stateData,stateData,stateData)>
+    <!ELEMENT stateData (name,population,capital,bird,flower)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT population (#PCDATA)>
+    <!ELEMENT capital (#PCDATA)>
+    <!ELEMENT bird (#PCDATA)>
+    <!ELEMENT flower (#PCDATA)>
+]>
+<PAK_States>
+    <stateData>
+        <name>Sindh</name>
+        <population>20000000</population>
+        <capital>Karachi</capital>
+        <bird>
+            Chakor
+        </bird>
+        <flower>Jasmine</flower>
+    </stateData>
+    <stateData>
+        <name>Punjab</name>
+        <population>20000000</population>
+        <capital>Lahore</capital>
+        <bird>
+            Chakor
+        </bird>
+        <flower>Jasmine</flower></stateData>
+    <stateData>
+        <name>KPK</name>
+        <population>20000000</population>
+        <capital>Peshawar</capital>
+        <bird>
+            Chakor
+        </bird>
+        <flower>Jasmine</flower>
+    </stateData>
+</PAK_States>
